@@ -1,10 +1,10 @@
 #include <stdio.h>
 	main() {
-		str os;
-		str windows = "Windows";
-		str macos = "MacOs";
-		str gnulinux = "Gnu/Linux";
-		str none;
+		char os;
+		char windows[]; = "Windows";
+		char macos[] = "MacOs";
+		char gnulinux[] = "Gnu/Linux";
+		char none;
 			printf("What Os would you like to run with Linux?");
 				scanf("%d", &os);
 					if (os == windows) {
