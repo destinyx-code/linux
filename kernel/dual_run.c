@@ -5,10 +5,13 @@
 		char macos[] = "MacOs";
 		char gnulinux[] = "Gnu/Linux";
 		char none;
+			void que() {
+			
 			printf("What Os would you like to run with Linux?");
 				scanf("%d", &os);
 					if (os == windows) {
 						
 					}
-	}
+				}
+			}
 return 0;
